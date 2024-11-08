@@ -16,6 +16,7 @@ func main() {
 
     client := &http.Client{}
 
+    // Data Source with numeric fields goal and outcome
     requestBody := map[string]interface{}{
         "goal":       50,
         "outcome":    40,
