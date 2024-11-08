@@ -10,6 +10,7 @@ $headers = @{
 }
 
 # Request body
+# Data Source with numeric fields goal and outcome
 $requestBody = @(
     @{
         goal = 50
