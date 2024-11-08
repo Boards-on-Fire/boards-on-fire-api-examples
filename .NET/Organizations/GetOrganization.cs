@@ -13,7 +13,7 @@ using (var client = new HttpClient())
 
     try
     {
-        HttpResponseMessage response = await client.GetAsync($"organizations/{organizationId}");
+        var response = await client.GetAsync($"organizations/{organizationId}");
         response.EnsureSuccessStatusCode();
 
         var data = await response.Content.ReadAsStringAsync();
