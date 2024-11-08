@@ -5,6 +5,7 @@ $dataSourceName = "YOUR DATA SOURCE NAME"
 $organizationId = "YOUR ORGANIZATION ID"
 
 # Request Body
+# Data Source with numeric fields goal and outcome
 $requestBody = @{
     goal = 50
     outcome = 40
