@@ -10,6 +10,7 @@ headers = {
     "x-api-key": api_key
 }
 
+# Data Source with numeric fields goal and outcome
 request_body = [
     {
         "goal": 50,
