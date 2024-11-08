@@ -5,7 +5,6 @@ using System.Text.Json;
 var boardsOnFireApiUrl = "YOUR URL"; // exempel: https://my-company.boardsonfireapp.com/api/v5/
 var apiKey = "YOUR API KEY";
 var dataSourceName = "YOUR DATA SOURCE NAME";
-var organizationId = "YOUR ORGANIZATION ID";
 
 using (var client = new HttpClient())
 {
@@ -34,7 +33,7 @@ using (var client = new HttpClient())
                         color = "blue"
                     }
                 },
-                organization_id = Guid.Parse(organizationId)
+                organization_id = Guid.Parse("3ff3f3f4-a950-4d65-9043-90d8100ded5c")
             },
             new
             {
@@ -51,7 +50,7 @@ using (var client = new HttpClient())
                         color = "green"
                     }
                 },
-                organization_id = Guid.Parse(organizationId)
+                organization_id = Guid.Parse("59291e40-b489-47e0-bba0-0862e19802b1")
             }
         };
 
