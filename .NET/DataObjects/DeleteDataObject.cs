@@ -18,8 +18,6 @@ using (var client = new HttpClient())
     {
         var response = await client.DeleteAsync($"datasources/{dataSourceName}/dataobjects/{dataObjectId}");
         response.EnsureSuccessStatusCode();
-
-        var data = await response.Content.ReadAsStringAsync();
     }
     catch (HttpRequestException e)
     {
