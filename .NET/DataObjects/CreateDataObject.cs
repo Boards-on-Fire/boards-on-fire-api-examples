@@ -16,6 +16,7 @@ using (var client = new HttpClient())
 
     try
     {
+        // Data Source with numeric fields goal and outcome
         var requestBody = new
         {
             goal = 50,
