@@ -12,7 +12,7 @@ using (var client = new HttpClient())
 
     try
     {
-        HttpResponseMessage response = await client.GetAsync("users");
+        var response = await client.GetAsync("users");
         response.EnsureSuccessStatusCode();
 
         var data = await response.Content.ReadAsStringAsync();
