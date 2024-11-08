@@ -6,3 +6,4 @@ It includes examples in multiple programming languages, such as:
 * Go
 * PowerShell
 * Python
+* Ruby
