@@ -24,13 +24,13 @@ using (var client = new HttpClient())
                 {
                     production_line = "line1",
                     stop_reason = "failure",
-                    organization_id = Guid.Parse("38566ce2-cf58-49f2-a68b-011ef538512c")
+                    organization_id = Guid.Parse("3ff3f3f4-a950-4d65-9043-90d8100ded5c")
                 },
                 new
                 {
                     production_line = "line2",
                     stop_reason = "no reason",
-                    organization_id = Guid.Parse("38566ce2-cf58-49f2-a68b-011ef538512c")
+                    organization_id = Guid.Parse("59291e40-b489-47e0-bba0-0862e19802b1")
                 }
             },
             delete_others = false
